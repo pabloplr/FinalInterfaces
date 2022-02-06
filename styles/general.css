@@ -1,5 +1,6 @@
 :root {
     --main-bg-color: #320046;
+    --modal-bg-color: #180022;
     --primary-color: #01d7f9;
     --secondary-color: #bb00c2;
 }
@@ -59,4 +60,37 @@ a {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.stat {
+    border: solid black 1px;
+    padding: 5px!important;
+    background-color: var(--main-bg-color);
+    border-radius: 10px;
+    border: solid 1px var(--secondary-color);
+}
+
+.golem-modal {
+    background-color: var(--modal-bg-color);
+    border: solid 1px var(--secondary-color);
+    border-radius: 10px;
+    color: white;
+    height: 700px;
+}
+
+.golem-modal h1 {
+    color: white;
+    text-align: center;
+}
+
+.golem-modal .type {
+    color: rgb(177, 177, 177);
+}
+
+.golem-modal .info {
+    color: white;
+}
+
+.golem-modal .percentage {
+    color: var(--secondary-color);
 }
