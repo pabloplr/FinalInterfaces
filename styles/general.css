@@ -94,3 +94,20 @@ a {
 .golem-modal .percentage {
     color: var(--secondary-color);
 }
+
+.golem-card {
+    background-color: var(--main-bg-color);
+    border: solid 1px var(--secondary-color);
+}
+
+.golem-col {
+    /* width: 400px; */
+}
+
+.modal-header-golem {
+    border-bottom: solid 1px var(--secondary-color);
+}
+
+.modal-footer-golems {
+    border-top: solid 1px var(--secondary-color);
+}
