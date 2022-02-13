@@ -10,6 +10,7 @@
     <!-- Bootstrap CSS v5.0.2 -->
     <link rel="stylesheet" href="../styles/bootstrap.min.css">
     <link rel="stylesheet" href="../styles/general.css">
+    <link rel="stylesheet" href="../css/login.css">
 
 </head>
 
@@ -21,23 +22,43 @@
             </a>
             <ul class="nav justify-content-end">
                 <li class="nav-item">
-                    <a class="nav-link activo" aria-current="page" href="#">Inicio</a>
+                    <a class="nav-link " aria-current="page" href="../index.html">Inicio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Golems</a>
+                    <a class="nav-link" href="golems.html">Golems</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contacto</a>
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link activo" href="#">Login</a>
                 </li>
             </ul>
         </div>
     </nav>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col col-3">
+                <form action="/login" method="POST" class="my-2">
+                    <h1 class="h3 mb-3 fw-normal text-white">Inicia sesión</h1>
+                    <div class="">
+                        <label for="">Email</label>
+                        <input type="text" class="form-control" id="floatingInput" placeholder="" name="user">
+                    </div>
+                    <div class="">
+                        <label for="">Contraseña</label>
+                        <input type="text" class="form-control" id="floatingPassword" placeholder="" name="pass">
+                    </div>
+                    <button class="w-100 btn btn-lg btn-primary" type="submit"><a href="../index.html">Iniciar sesión</a></button>
+                </form>
+            </div>
+        </div>
+    </div>
     <!-- ----------------------- footer ----------------------- -->
     <footer class="container-fluid py-5">
         <div class="row d-flex justify-content-evenly">
             <div class="col-12 col-md">
                 <img src="../img/logo_golem.png" alt="" width="60" height="60">
-                <!-- <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mb-2" role="img" viewBox="0 0 24 24"><title>Product</title><circle cx="12" cy="12" r="10"/><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"/></svg> -->
                 <small class="d-block mb-3 text-muted">&copy; 2017–2021</small>
             </div>
             <div class="col-6 col-md">
