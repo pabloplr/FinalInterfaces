@@ -1,4 +1,4 @@
-input {
+input, textarea {
   background-color: #320046 !important;
   border: solid #bb00c2 2px !important;
   color: #01d7f9 !important;
@@ -17,4 +17,9 @@ button {
 
 a {
   text-decoration: none;
+}
+span{
+  background-color: #572a69 !important ;
+  color: #bb00c2 !important ;
+  border: #bb00c2 !important ;
 }
