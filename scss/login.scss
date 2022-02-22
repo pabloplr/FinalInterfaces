@@ -3,20 +3,33 @@ $modal-bg-color: #180022;
 $primary-color: #01d7f9;
 $secondary-color: #bb00c2;
 
-input {
+
+
+
+
+
+input, textarea {
   background-color: $main-bg-color !important;
   border: solid $secondary-color 2px !important;
   color: $primary-color !important;
 }
+
 label,
 h1 {
   color: $secondary-color !important;
 }
+
 button {
   margin-top: 20px;
   background-color: $secondary-color !important;
   border: none !important;
 }
+
 a {
   text-decoration: none;
+}
+span{
+  background-color: $main-bg-color !important ;
+  color: $secondary-color !important ;
+  border: $secondary-color !important ;
 }
