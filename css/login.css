@@ -18,8 +18,9 @@ button {
 a {
   text-decoration: none;
 }
-span{
-  background-color: #572a69 !important ;
-  color: #bb00c2 !important ;
-  border: #bb00c2 !important ;
+
+span {
+  background-color: #320046 !important;
+  color: #bb00c2 !important;
+  border: #bb00c2 !important;
 }
